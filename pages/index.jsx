@@ -1,13 +1,15 @@
 import Head from 'next/head'
-import {
-    Title,
-    SubTitle,
-    Body,
-    Large,
-    Small,
-    SectionTitle,
-} from '@/ui/Typography'
+import { Anchor, GrayAnchor } from '@/ui/Anchors'
+import useColorMode from '@/hooks/useColorMode'
+import { MainButton } from '@/ui/Buttons'
+
 export default function Home() {
+    const [colorMode, setColorMode] = useColorMode()
+
+    const handleMode = () => {
+        setColorMode(colorMode === 'light' ? 'dark' : 'light')
+    }
+
     return (
         <>
             <Head>
@@ -19,12 +21,11 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Title color='text-white'>LEANDRO MARTÍN ROLDÁN</Title>
-            <SubTitle>Fullstack Developer</SubTitle>
-            <Body color='text-white'>Hola que tal soy un párrafo</Body>
-            <Large color='text-white'>projects</Large>
-            <Small color='text-white'>Copyright los derechos reservados</Small>
-            <SectionTitle color='text-blue-400'>contact</SectionTitle>
+            <main className='h-screen dark:bg-black'>
+                <MainButton colorMode={colorMode} onClick={handleMode}>
+                    Mode
+                </MainButton>
+            </main>
         </>
     )
 }

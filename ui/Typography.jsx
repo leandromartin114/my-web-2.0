@@ -1,10 +1,6 @@
-export const Title = ({ children, color }) => {
+export const Title = ({ children }) => {
     return (
-        <h1
-            className={
-                'font-bold tracking-wider text-4xl leading-none ' + color
-            }
-        >
+        <h1 className='font-bold tracking-wider text-4xl leading-none text-black dark:text-white'>
             {children}
         </h1>
     )
@@ -18,41 +14,33 @@ export const SubTitle = ({ children }) => {
     )
 }
 
-export const SectionTitle = ({ children, color }) => {
+export const SectionTitle = ({ children }) => {
     return (
-        <h2
-            className={
-                'font-bold tracking-widest text-3xl leading-none ' + color
-            }
-        >
+        <h2 className='font-bold tracking-widest text-3xl leading-none text-black dark:text-white'>
             {children}
         </h2>
     )
 }
 
-export const Body = ({ children, color }) => {
+export const Body = ({ children }) => {
     return (
-        <p className={'font-normal text-lg leading-tight ' + color}>
+        <p className='font-normal text-lg leading-tight text-black dark:text-white'>
             {children}
         </p>
     )
 }
 
-export const Large = ({ children, color }) => {
+export const Large = ({ children }) => {
     return (
-        <p
-            className={
-                'font-semibold tracking-wide text-xl leading-none ' + color
-            }
-        >
+        <p className='font-semibold tracking-wide text-xl leading-none text-black dark:text-white'>
             {children}
         </p>
     )
 }
 
-export const Small = ({ children, color }) => {
+export const Small = ({ children }) => {
     return (
-        <p className={'font-normal text-xs leading-none ' + color}>
+        <p className='font-normal text-xs leading-none text-black dark:text-white'>
             {children}
         </p>
     )
