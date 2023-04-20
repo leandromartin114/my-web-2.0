@@ -20,3 +20,6 @@ button.light:hover {
     text-shadow: -2px -2px 0 #beb8b8d0, 2px -2px 0 #beb8b8d0,
         -2px 2px 0 #beb8b8d0, 2px 2px 0 #beb8b8d0;
 }
+.cls-1 {
+    fill: #fff;
+}

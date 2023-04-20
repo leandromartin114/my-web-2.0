@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Anchor, GrayAnchor } from '@/ui/Anchors'
 import useColorMode from '@/hooks/useColorMode'
 import { MainButton } from '@/ui/Buttons'
 
