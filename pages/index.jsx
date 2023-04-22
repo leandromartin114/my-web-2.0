@@ -1,14 +1,7 @@
 import Head from 'next/head'
-import useColorMode from '@/hooks/useColorMode'
-import { MainButton } from '@/ui/Buttons'
+import { Header } from '@/components/Header'
 
 export default function Home() {
-    const [colorMode, setColorMode] = useColorMode()
-
-    const handleMode = () => {
-        setColorMode(colorMode === 'light' ? 'dark' : 'light')
-    }
-
     return (
         <>
             <Head>
@@ -21,9 +14,7 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <main className='h-screen dark:bg-black'>
-                <MainButton colorMode={colorMode} onClick={handleMode}>
-                    Mode
-                </MainButton>
+                <Header />
             </main>
         </>
     )
