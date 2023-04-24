@@ -1,25 +1,38 @@
-import { Logo, LogoW, SunIcon, MoonIcon, Menu } from '@/ui/Icons'
 import { useTheme } from 'next-themes'
+import { useEffect, useState } from 'react'
+import { Logo, LogoW, SunIcon, MoonIcon } from '@/ui/Icons'
+import { MobileNav } from './MobileNav'
+import { DesktopNav } from './DesktopNav'
 
 export const Header = () => {
     const { theme, setTheme } = useTheme()
+    const [color, setColor] = useState('light')
     const handleTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light')
     }
+    useEffect(() => {
+        setColor(theme)
+    }, [theme])
 
     return (
         <header className='h-14 w-full p-2 flex items-center justify-between'>
-            {theme === 'light' ? <Logo /> : <LogoW />}
+            {color === 'light' ? <Logo /> : <LogoW />}
 
-            {theme === 'light' ? (
-                <div className='w-24 flex items-center justify-between'>
-                    <MoonIcon onClick={handleTheme} />
-                    <Menu />
+            {color === 'light' ? (
+                <div className='flex items-center justify-between gap-2'>
+                    <button onClick={handleTheme}>
+                        <MoonIcon />
+                    </button>
+                    <MobileNav />
+                    <DesktopNav />
                 </div>
             ) : (
-                <div className='w-24 flex items-center justify-between'>
-                    <SunIcon onClick={handleTheme} />
-                    <Menu />
+                <div className='flex items-center justify-between gap-2'>
+                    <button onClick={handleTheme}>
+                        <SunIcon />
+                    </button>
+                    <DesktopNav />
+                    <MobileNav />
                 </div>
             )}
         </header>
