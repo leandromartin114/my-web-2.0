@@ -1,8 +1,8 @@
 import { Anchor, GrayAnchor } from '@/ui/Anchors'
-export const DesktopNav = () => {
+export const FooterNav = () => {
     return (
-        <nav className='hidden md:block'>
-            <ul className='flex justify-around items-center gap-9'>
+        <nav>
+            <ul className='flex flex-col items-start'>
                 <li>
                     <GrayAnchor>download cv</GrayAnchor>
                 </li>
@@ -14,6 +14,9 @@ export const DesktopNav = () => {
                 </li>
                 <li>
                     <Anchor>contact</Anchor>
+                </li>
+                <li>
+                    <Anchor>home</Anchor>
                 </li>
             </ul>
         </nav>

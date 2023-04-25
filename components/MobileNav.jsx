@@ -11,7 +11,10 @@ export const MobileNav = () => {
 
     return (
         <nav className='relative md:hidden'>
-            <button className='relative z-10' onClick={navHandler}>
+            <button
+                className='relative z-10 flex items-center'
+                onClick={navHandler}
+            >
                 <MenuIcon />
             </button>
             <button

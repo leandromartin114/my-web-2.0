@@ -8,7 +8,7 @@ export const Anchor = ({ children, link }) => {
                         after:border-black after:dark:border-white
                         after:scale-x-0 
                         after:transition-transform
-                        duration-300
+                        duration-500
                         after:ease-in-out
                         after:origin-center
                         hover:after:scale-x-100'
@@ -28,7 +28,7 @@ export const GrayAnchor = ({ children, link }) => {
                         after:border-gray-400
                         after:scale-x-0 
                         after:transition-transform
-                        duration-300
+                        duration-500
                         after:ease-in-out
                         after:origin-center
                         hover:after:scale-x-100'
@@ -54,6 +54,28 @@ export const MobileGrayAnchor = ({ children, link }) => {
         <a
             href={link}
             className='text-right px-2 py-2 cursor-pointer block text-2xl font-regular text-gray-500 dark:text-gray-500 hover:bg-gray-300'
+        >
+            {children}
+        </a>
+    )
+}
+
+export const CardAnchor = ({ children, link }) => {
+    return (
+        <a
+            className='text-lg leading-none text-cyan-500 hover:text-cyan-500 cursor-pointer
+            after:block
+            after:border-b-2
+            after:border-cyan-500
+            after:scale-x-0 
+            after:transition-transform
+            duration-500
+            after:ease-in-out
+            after:origin-center
+            hover:after:scale-x-100'
+            href={link}
+            target='_blank'
+            rel='noreferrer'
         >
             {children}
         </a>

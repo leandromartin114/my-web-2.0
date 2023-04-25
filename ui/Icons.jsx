@@ -1,7 +1,7 @@
 export const MenuIcon = () => {
     return (
         <svg
-            className='w-12 md:w-14 h-12 md:h-14 fill-black dark:fill-white hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
+            className='w-10 h-10 fill-black dark:fill-white hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
             fill='none'
             stroke='currentColor'
             strokeLinecap='round'
@@ -19,7 +19,7 @@ export const MenuIcon = () => {
 export const SunIcon = () => {
     return (
         <svg
-            className='w-7 md:w-9 h-7 md:h-9 fill-white dark:fill-white hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
+            className='w-7 md:w-8 h-7 md:h-8 fill-white dark:fill-white hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
             viewBox='0 0 24 24'
         >
             <path d='M11.75 5.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h.5a1 1 0 0 1 1 1v2.5a1 1 0 0 1-1 1h-.5ZM16.42 7.227a1 1 0 0 1 0-1.414l1.767-1.768a1 1 0 0 1 1.414 0l.354.354a1 1 0 0 1 0 1.414L18.187 7.58a1 1 0 0 1-1.414 0l-.354-.354ZM18.5 11.75a1 1 0 0 1 1-1H22a1 1 0 0 1 1 1v.5a1 1 0 0 1-1 1h-2.5a1 1 0 0 1-1-1v-.5ZM16.773 16.42a1 1 0 0 1 1.414 0l1.768 1.767a1 1 0 0 1 0 1.414l-.354.354a1 1 0 0 1-1.414 0l-1.768-1.768a1 1 0 0 1 0-1.414l.354-.354ZM12.25 18.5a1 1 0 0 1 1 1V22a1 1 0 0 1-1 1h-.5a1 1 0 0 1-1-1v-2.5a1 1 0 0 1 1-1h.5ZM7.58 16.773a1 1 0 0 1 0 1.414l-1.767 1.768a1 1 0 0 1-1.414 0l-.354-.354a1 1 0 0 1 0-1.414l1.768-1.768a1 1 0 0 1 1.414 0l.354.354ZM5.5 12.25a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-.5a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1v.5ZM7.227 7.58a1 1 0 0 1-1.414 0L4.045 5.814a1 1 0 0 1 0-1.414l.354-.354a1 1 0 0 1 1.414 0l1.768 1.768a1 1 0 0 1 0 1.414l-.354.354ZM7 12a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z' />
@@ -30,7 +30,7 @@ export const SunIcon = () => {
 export const MoonIcon = () => {
     return (
         <svg
-            className='w-7 md:w-9 h-7 md:h-9 fill-black dark:fill-black hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
+            className='w-7 md:w-8 h-7 md:h-8 fill-black dark:fill-black hover:fill-gray-400 dark:hover:fill-gray-400 cursor-pointer'
             viewBox='0 0 24 24'
         >
             <path d='M12.056 3.6a1 1 0 0 0-.908-1.564C6.024 2.469 2 6.764 2 12c0 5.523 4.477 10 10 10 5.236 0 9.531-4.024 9.964-9.148a1 1 0 0 0-1.564-.908A6 6 0 0 1 12.055 3.6Z' />

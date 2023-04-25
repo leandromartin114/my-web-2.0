@@ -15,19 +15,18 @@ export const Header = () => {
     }, [theme])
 
     return (
-        <header className='h-14 w-full p-2 flex items-center justify-between'>
+        <header className='w-full px-4 md:px-8 py-5 flex items-center justify-between'>
             {color === 'light' ? <Logo /> : <LogoW />}
-
             {color === 'light' ? (
-                <div className='flex items-center justify-between gap-2'>
-                    <button onClick={handleTheme}>
+                <div className='flex items-center justify-between gap-5 md:gap-9'>
+                    <button className='flex items-center' onClick={handleTheme}>
                         <MoonIcon />
                     </button>
                     <MobileNav />
                     <DesktopNav />
                 </div>
             ) : (
-                <div className='flex items-center justify-between gap-2'>
+                <div className='flex items-center justify-between gap-5 md:gap-9'>
                     <button onClick={handleTheme}>
                         <SunIcon />
                     </button>

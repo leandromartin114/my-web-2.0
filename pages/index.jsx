@@ -1,7 +1,11 @@
 import Head from 'next/head'
+import { getAboutMe, getMyProjects } from '@/lib/api'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { MainSection } from '@/components/MainSection'
+import { MobileProjectsSection } from '@/components/MobileProjectsSection'
 
-export default function Home() {
+export default function Home({ data, projects }) {
     return (
         <>
             <Head>
@@ -13,9 +17,18 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <main className='h-screen dark:bg-black'>
+            <main className='dark:bg-black'>
                 <Header />
+                <MainSection />
+                <MobileProjectsSection projects={projects} />
+                <Footer />
             </main>
         </>
     )
+}
+
+export async function getStaticProps() {
+    const data = await getAboutMe()
+    const projects = await getMyProjects()
+    return { props: { data, projects } }
 }
