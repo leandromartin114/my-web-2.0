@@ -23,7 +23,7 @@ export const MobileNav = () => {
                 className={`fixed inset-0 bg-black opacity-20 dark:bg-gray-600 dark:opacity-70 cursor-default ${
                     open ? 'visible' : 'invisible'
                 }`}
-            ></button>
+            />
             <ul
                 className={`absolute right-0 w-44 py-2 bg-white dark:bg-black rounded-lg shadow-xl transition-all duration-400 ease-linear overflow-hidden ${
                     open ? 'max-h-60' : 'max-h-0 invisible'

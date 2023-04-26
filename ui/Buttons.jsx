@@ -1,12 +1,15 @@
-export const MainButton = ({ children, onClick, onMouseEnter, colorMode }) => {
+export const MainButton = ({
+    children,
+    onClick,
+    onMouseEnter,
+    onMouseLeave,
+}) => {
     return (
         <button
-            className={
-                'cursor-pointer font-bold tracking-widest text-3xl leading-none text-black dark:text-white ' +
-                colorMode
-            }
+            className='cursor-pointer font-bold tracking-widest text-3xl leading-none text-black dark:text-white claro dark:oscuro'
             onClick={onClick}
             onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
         >
             {children}
         </button>

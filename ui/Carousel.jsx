@@ -22,7 +22,7 @@ export const Carousel = ({ items }) => {
                     <SwiperSlide key={item.title}>
                         <div
                             key={index}
-                            className='h-[480px] md:h-[600px] py-2 grid content-start items-center justify-items-center gap-4 shadow-lg rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700'
+                            className='h-[480px] md:h-[600px] py-2 grid content-start items-center justify-items-center gap-4 shadow-lg rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'
                         >
                             <Large>{item.title}</Large>
                             <img

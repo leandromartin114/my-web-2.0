@@ -4,6 +4,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { MainSection } from '@/components/MainSection'
 import { MobileProjectsSection } from '@/components/MobileProjectsSection'
+import { ProjectsSection } from '@/components/ProjectsSection'
 
 export default function Home({ data, projects }) {
     return (
@@ -21,6 +22,7 @@ export default function Home({ data, projects }) {
                 <Header />
                 <MainSection />
                 <MobileProjectsSection projects={projects} />
+                <ProjectsSection projects={projects} />
                 <Footer />
             </main>
         </>

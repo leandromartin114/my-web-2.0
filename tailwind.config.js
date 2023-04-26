@@ -26,7 +26,7 @@ module.exports = {
             },
             backgroundImage: {
                 teclado_blanco:
-                    "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682442445/My%20web/Teclado_blanco2_cu7nny.jpg')",
+                    "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682533486/My%20web/Teclado_blanco_mnjxrd.jpg')",
                 teclado_blanco_movil:
                     "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682442445/My%20web/Teclado_blanco_m%C3%B3vil_ct5bny.jpg')",
                 teclado_negro:
