@@ -63,7 +63,7 @@ export const MobileGrayAnchor = ({ children, link }) => {
 export const CardAnchor = ({ children, link }) => {
     return (
         <a
-            className='text-lg leading-none text-cyan-500 hover:text-cyan-500 cursor-pointer
+            className='text-lg xl:text-xl leading-none text-cyan-500 hover:text-cyan-500 cursor-pointer
             after:block
             after:border-b-2
             after:border-cyan-500

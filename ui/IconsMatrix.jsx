@@ -19,23 +19,23 @@ import {
 
 export const IconsMatrix = () => {
     return (
-        <div className='w-72 md:w-[512px] grid grid-cols-4 md:grid-cols-8 gap-4 justify-items-center'>
-            <CSSIcon />
-            <FirebaseIcon />
-            <GitIcon />
+        <div className='w-[350px] xl:w-[450px] grid grid-cols-4 xl:grid-cols-8 gap-4 justify-items-center'>
             <HTMLIcon />
+            <CSSIcon />
             <JavaScriptIcon />
-            <TypeScriptIcon />
-            <PostgreSQLIcon />
-            <PostmanIcon />
-            <WebpackIcon />
-            <AlgoliaIcon />
-            <TailwindIcon />
             <ReactIcon />
-            <NodeIcon />
             <NextIcon />
+            <TailwindIcon />
+            <WebpackIcon />
             <FigmaIcon />
+            <TypeScriptIcon />
+            <NodeIcon />
+            <PostgreSQLIcon />
+            <FirebaseIcon />
             <AirtableIcon />
+            <AlgoliaIcon />
+            <PostmanIcon />
+            <GitIcon />
         </div>
     )
 }

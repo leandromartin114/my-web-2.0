@@ -9,7 +9,7 @@ export const ContactIcons = () => {
     }
 
     return (
-        <div className='relative flex items-center justify-around gap-2 md:gap-4'>
+        <div className='relative flex items-center justify-around gap-2 md:gap-5'>
             <a
                 href='https://github.com/leandromartin114'
                 target='_blank'
