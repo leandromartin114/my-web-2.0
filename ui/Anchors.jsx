@@ -2,7 +2,7 @@ export const Anchor = ({ children, link }) => {
     return (
         <a
             href={link}
-            className='cursor-pointer text-2xl font-regular text-black dark:text-white hover:text-black dark:hover:text-white
+            className='cursor-pointer text-xl lg:text-2xl font-regular text-center text-black dark:text-white hover:text-black dark:hover:text-white
                         after:block
                         after:border-b-4
                         after:border-black after:dark:border-white
@@ -22,7 +22,7 @@ export const GrayAnchor = ({ children, link }) => {
     return (
         <a
             href={link}
-            className='cursor-pointer text-2xl font-regular text-gray-400 hover:text-gray-400
+            className='cursor-pointer text-xl lg:text-2xl font-regular text-gray-400 hover:text-gray-400
                         after:block
                         after:border-b-4
                         after:border-gray-400

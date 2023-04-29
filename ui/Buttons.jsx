@@ -1,5 +1,3 @@
-import { Plus } from '@/ui/Icons'
-
 export const MainButton = ({
     children,
     onClick,
@@ -14,15 +12,18 @@ export const MainButton = ({
             onMouseLeave={onMouseLeave}
         >
             {children}
-            <Plus />
         </button>
     )
 }
 
-export const SecondaryButton = ({ children, onClick }) => {
+export const SecondaryButton = ({ children, onClick, active }) => {
     return (
         <button
-            className='cursor-pointer text-right font-semibold tracking-wider text-xl lg:text-2xl leading-none text-black dark:text-white hover:text-amber-400 dark:hover:text-amber-300'
+            className={`cursor-pointer text-right font-semibold tracking-wider text-xl lg:text-2xl leading-none  ${
+                active
+                    ? 'text-amber-400 dark:text-amber-300'
+                    : 'text-black dark:text-white'
+            }  hover:text-amber-400 dark:hover:text-amber-300`}
             onClick={onClick}
         >
             {children}

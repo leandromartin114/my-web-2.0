@@ -33,6 +33,9 @@ export const MobileNav = () => {
                     <MobileAnchor>projects</MobileAnchor>
                 </li>
                 <li>
+                    <MobileAnchor>skills</MobileAnchor>
+                </li>
+                <li>
                     <MobileAnchor>about</MobileAnchor>
                 </li>
                 <li>

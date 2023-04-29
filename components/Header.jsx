@@ -18,7 +18,7 @@ export const Header = () => {
         <header className='w-full px-4 md:px-8 py-5 flex items-center justify-between'>
             {color === 'light' ? <Logo /> : <LogoW />}
             {color === 'light' ? (
-                <div className='flex items-center justify-between gap-5 md:gap-9'>
+                <div className='flex items-center justify-between gap-5 md:gap-7 lg:gap-9'>
                     <button className='flex items-center' onClick={handleTheme}>
                         <MoonIcon />
                     </button>
@@ -26,7 +26,7 @@ export const Header = () => {
                     <DesktopNav />
                 </div>
             ) : (
-                <div className='flex items-center justify-between gap-5 md:gap-9'>
+                <div className='flex items-center justify-between gap-5 md:gap-7 lg:gap-9'>
                     <button onClick={handleTheme}>
                         <SunIcon />
                     </button>

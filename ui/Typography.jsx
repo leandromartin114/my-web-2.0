@@ -1,3 +1,5 @@
+import { easeInOut, motion } from 'framer-motion'
+
 export const Title = ({ children }) => {
     return (
         <h1 className='font-semibold text-center tracking-wider text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-none text-black dark:text-white'>
@@ -16,7 +18,7 @@ export const SubTitle = ({ children }) => {
 
 export const SectionTitle = ({ children }) => {
     return (
-        <h2 className='font-bold tracking-widest text-3xl leading-none text-black dark:text-white'>
+        <h2 className='text-center font-bold tracking-widest text-3xl lg:text-4xl xl:text-6xl leading-none text-black dark:text-white flex items-end'>
             {children}
         </h2>
     )
@@ -33,6 +35,14 @@ export const Body = ({ children }) => {
 export const Large = ({ children }) => {
     return (
         <p className='font-semibold text-center tracking-wide text-xl xl:text-2xl leading-none text-black dark:text-white'>
+            {children}
+        </p>
+    )
+}
+
+export const LargeAmber = ({ children }) => {
+    return (
+        <p className='font-semibold text-center tracking-wide text-xl xl:text-2xl leading-none text-amber-500 dark:text-amber-300'>
             {children}
         </p>
     )

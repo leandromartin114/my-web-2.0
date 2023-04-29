@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer'
 import { MainSection } from '@/components/MainSection'
 import { MobileProjectsSection } from '@/components/MobileProjectsSection'
 import { ProjectsSection } from '@/components/ProjectsSection'
+import { SkillsSection } from '@/components/SkillsSection'
 
 export default function Home({ data, projects }) {
     return (
@@ -23,6 +24,7 @@ export default function Home({ data, projects }) {
                 <MainSection />
                 <MobileProjectsSection projects={projects} />
                 <ProjectsSection projects={projects} />
+                <SkillsSection />
                 <Footer />
             </main>
         </>

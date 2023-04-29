@@ -10,6 +10,9 @@ export const FooterNav = () => {
                     <Anchor>projects</Anchor>
                 </li>
                 <li>
+                    <Anchor>skills</Anchor>
+                </li>
+                <li>
                     <Anchor>about</Anchor>
                 </li>
                 <li>
