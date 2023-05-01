@@ -11,15 +11,15 @@ const DIPLOMA_URL =
 export const SkillsSection = () => {
     return (
         <section id='skills'>
-            <div className='w-full h-screen px-4 gap-10 flex flex-col-reverse justify-center items-center lg:hidden'>
-                <div className='flex flex-col gap-8'>
+            <div className='w-full h-screen px-4 gap-4 flex flex-col-reverse justify-center items-center lg:hidden'>
+                <div className='flex flex-col gap-2'>
                     <FrontendIcons />
                     <BackendIcons />
                     <OtherIcons />
                 </div>
                 <div className='flex flex-col gap-8 items-center'>
                     <SectionTitle>skills</SectionTitle>
-                    <div className='max-w-xs'>
+                    <div className='hidden lg:block max-w-xs'>
                         <Body>
                             I acquired these skills after graduating from{' '}
                             <a

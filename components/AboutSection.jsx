@@ -9,7 +9,7 @@ export const AboutSection = () => {
     return (
         <section id='about'>
             <div className='lg:hidden h-screen w-full flex flex-col px-4 gap-10 items-center justify-center'>
-                <div className='max-w-xl flex flex-col gap-10 items-center justify-center'>
+                <div className='max-w-lg flex flex-col gap-2 items-center justify-center'>
                     <Large>
                         I like football, video games and travel across the
                         world. I consider myself a great team player with a big
@@ -26,7 +26,7 @@ export const AboutSection = () => {
                     </Large>
                 </div>
                 <img
-                    className='max-w-[280px] max-h-[280px] rounded-full'
+                    className='max-w-[240px] max-h-[240px] rounded-full'
                     src={data.img}
                     alt='Leandro Roldán'
                 />
@@ -42,7 +42,7 @@ export const AboutSection = () => {
                         transition: { duration: 0.5, ease: 'easeInOut' },
                     }}
                     viewport={{ once: true }}
-                    className='max-w-xl flex flex-col gap-10 items-center justify-center'
+                    className='max-w-xl flex flex-col gap-5 items-center justify-center'
                 >
                     <Large>
                         I like football, video games and travel across the
