@@ -10,11 +10,8 @@ const DIPLOMA_URL =
 
 export const SkillsSection = () => {
     return (
-        <>
-            <section
-                className='w-full h-screen px-4 gap-10 flex flex-col-reverse justify-center items-center lg:hidden'
-                id='skills'
-            >
+        <section id='skills'>
+            <div className='w-full h-screen px-4 gap-10 flex flex-col-reverse justify-center items-center lg:hidden'>
                 <div className='flex flex-col gap-8'>
                     <FrontendIcons />
                     <BackendIcons />
@@ -45,26 +42,23 @@ export const SkillsSection = () => {
                         </Body>
                     </div>
                 </div>
-            </section>
-            <section
-                className='hidden w-full h-screen px-8 gap-4 2xl:gap-24 lg:flex lg:flex-col-reverse justify-center items-center xl:flex-row xl:justify-around 2xl:justify-center'
-                id='skills'
-            >
+            </div>
+            <div className='hidden w-full h-screen px-8 gap-4 2xl:gap-24 lg:flex lg:flex-col-reverse justify-center items-center xl:flex-row xl:justify-around 2xl:justify-center'>
                 <motion.div
-                    initial={{ x: -200 }}
+                    initial={{ x: -100 }}
                     whileInView={{
                         x: 0,
                         transition: { duration: 0.5, ease: 'easeInOut' },
                     }}
                     viewport={{ once: true }}
-                    className='flex flex-col gap-8'
+                    className='flex flex-col gap-11'
                 >
                     <FrontendIcons />
                     <BackendIcons />
                     <OtherIcons />
                 </motion.div>
                 <motion.div
-                    initial={{ x: 200 }}
+                    initial={{ x: 100 }}
                     whileInView={{
                         x: 0,
                         transition: { duration: 0.5, ease: 'easeInOut' },
@@ -95,13 +89,17 @@ export const SkillsSection = () => {
                             </a>
                         </Body>
                     </div>
-                    <img
-                        className='hidden xl:block aspect-auto xl:w-[540px] 2xl:w-[700px] shadow-lg dark:shadow-md rounded-lg dark:shadow-gray-700'
+                    <motion.img
+                        className='hidden xl:block aspect-auto xl:w-[540px] 2xl:w-[700px] shadow-lg rounded-lg'
                         src={DIPLOMA_URL}
                         alt='Fullstack Web Development Diploma'
+                        whileHover={{
+                            scale: 1.05,
+                        }}
+                        transition={{ duration: 0.5, ease: 'easeInOut' }}
                     />
                 </motion.div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }

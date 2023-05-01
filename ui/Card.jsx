@@ -16,7 +16,8 @@ export const Card = ({
             className={`${visible} h-[600px] xl:h-[690px] p-4 grid content-start items-center justify-items-center gap-4 shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700`}
             initial={{ opacity: 0 }}
             animate={visible === 'block' ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ duration: 1, ease: 'easeInOut' }}
+            transition={{ duration: 0.8, ease: 'easeInOut' }}
+            whileHover={{ scale: 1.05 }}
         >
             <img
                 src={img}

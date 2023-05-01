@@ -34,7 +34,7 @@ module.exports = {
                 teclado_negro_movil:
                     "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682442445/My%20web/Teclado_negro_m%C3%B3vil_nyuadp.jpg')",
                 taza_blanca:
-                    "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682434856/My%20web/Taza_blanca_a2vnwr.jpg')",
+                    "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682961181/My%20web/Taza_blanca2_pedpf7.jpg')",
                 taza_negra:
                     "url('https://res.cloudinary.com/deooec1tp/image/upload/v1682434856/My%20web/Taza_negra_mfekjk.jpg')",
             },

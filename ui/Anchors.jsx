@@ -1,7 +1,8 @@
-export const Anchor = ({ children, link }) => {
+export const Anchor = ({ children, link, onClick }) => {
     return (
         <a
             href={link}
+            onClick={onClick}
             className='cursor-pointer text-xl lg:text-2xl font-regular text-center text-black dark:text-white hover:text-black dark:hover:text-white
                         after:block
                         after:border-b-4
@@ -18,10 +19,13 @@ export const Anchor = ({ children, link }) => {
     )
 }
 
-export const GrayAnchor = ({ children, link }) => {
+export const GrayAnchor = ({ children, link, onClick }) => {
     return (
         <a
             href={link}
+            onClick={onClick}
+            target='_blank'
+            rel='noreferrer'
             className='cursor-pointer text-xl lg:text-2xl font-regular text-gray-400 hover:text-gray-400
                         after:block
                         after:border-b-4
@@ -38,10 +42,11 @@ export const GrayAnchor = ({ children, link }) => {
     )
 }
 
-export const MobileAnchor = ({ children, link }) => {
+export const MobileAnchor = ({ children, link, onClick }) => {
     return (
         <a
             href={link}
+            onClick={onClick}
             className='text-right px-2 py-2 cursor-pointer block text-2xl font-regular text-black dark:text-white hover:bg-gray-300 dark:hover:text-black'
         >
             {children}
@@ -49,10 +54,13 @@ export const MobileAnchor = ({ children, link }) => {
     )
 }
 
-export const MobileGrayAnchor = ({ children, link }) => {
+export const MobileGrayAnchor = ({ children, link, onClick }) => {
     return (
         <a
             href={link}
+            onClick={onClick}
+            target='_blank'
+            rel='noreferrer'
             className='text-right px-2 py-2 cursor-pointer block text-2xl font-regular text-gray-500 dark:text-gray-500 hover:bg-gray-300'
         >
             {children}

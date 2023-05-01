@@ -1,18 +1,17 @@
 import Head from 'next/head'
-import { getAboutMe, getMyProjects } from '@/lib/api'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { MainSection } from '@/components/MainSection'
-import { MobileProjectsSection } from '@/components/MobileProjectsSection'
 import { ProjectsSection } from '@/components/ProjectsSection'
 import { SkillsSection } from '@/components/SkillsSection'
 import { AboutSection } from '@/components/AboutSection'
+import { ContactSection } from '@/components/ContactSection'
 
-export default function Home({ data, projects }) {
+export default function Home() {
     return (
         <>
             <Head>
-                <title>leandev</title>
+                <title>learoldan.dev</title>
                 <meta name='description' content='Welcome to my site' />
                 <meta
                     name='viewport'
@@ -23,18 +22,12 @@ export default function Home({ data, projects }) {
             <main className='dark:bg-black'>
                 <Header />
                 <MainSection />
-                <MobileProjectsSection projects={projects} />
-                <ProjectsSection projects={projects} />
+                <ProjectsSection />
                 <SkillsSection />
-                <AboutSection img={data.img} description={data.description} />
+                <AboutSection />
+                <ContactSection />
                 <Footer />
             </main>
         </>
     )
-}
-
-export async function getStaticProps() {
-    const data = await getAboutMe()
-    const projects = await getMyProjects()
-    return { props: { data, projects } }
 }

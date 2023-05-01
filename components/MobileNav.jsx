@@ -1,9 +1,11 @@
+import { useContext, useState } from 'react'
+import { LeanContext } from '@/context/LeanContext'
 import { MobileAnchor, MobileGrayAnchor } from '@/ui/Anchors'
 import { MenuIcon } from '@/ui/Icons'
-import { useState } from 'react'
 
 export const MobileNav = () => {
     const [open, setOpen] = useState(false)
+    const { data } = useContext(LeanContext)
 
     const navHandler = () => {
         setOpen(!open)
@@ -30,19 +32,30 @@ export const MobileNav = () => {
                 }`}
             >
                 <li>
-                    <MobileAnchor>projects</MobileAnchor>
+                    <MobileAnchor onClick={navHandler} link='#projects'>
+                        {' '}
+                        projects
+                    </MobileAnchor>
                 </li>
                 <li>
-                    <MobileAnchor>skills</MobileAnchor>
+                    <MobileAnchor onClick={navHandler} link='#skills'>
+                        skills
+                    </MobileAnchor>
                 </li>
                 <li>
-                    <MobileAnchor>about</MobileAnchor>
+                    <MobileAnchor onClick={navHandler} link='#about'>
+                        about
+                    </MobileAnchor>
                 </li>
                 <li>
-                    <MobileAnchor>contact</MobileAnchor>
+                    <MobileAnchor onClick={navHandler} link='#contact'>
+                        contact
+                    </MobileAnchor>
                 </li>
                 <li>
-                    <MobileGrayAnchor>download cv</MobileGrayAnchor>
+                    <MobileGrayAnchor link={data.cv}>
+                        download cv
+                    </MobileGrayAnchor>
                 </li>
             </ul>
         </nav>

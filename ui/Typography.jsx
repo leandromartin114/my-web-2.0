@@ -18,7 +18,7 @@ export const SubTitle = ({ children }) => {
 
 export const SectionTitle = ({ children }) => {
     return (
-        <h2 className='text-center font-bold tracking-widest text-3xl lg:text-4xl xl:text-6xl leading-none text-black dark:text-white flex items-end'>
+        <h2 className='text-center font-bold tracking-widest text-3xl lg:text-4xl xl:text-5xl leading-none text-black dark:text-white flex items-end'>
             {children}
         </h2>
     )

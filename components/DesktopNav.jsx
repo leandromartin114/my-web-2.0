@@ -1,22 +1,27 @@
+import { useContext } from 'react'
+import { LeanContext } from '@/context/LeanContext'
 import { Anchor, GrayAnchor } from '@/ui/Anchors'
+
 export const DesktopNav = () => {
+    const { data } = useContext(LeanContext)
+
     return (
         <nav className='hidden md:block'>
             <ul className='flex justify-around items-center gap-7 lg:gap-9'>
                 <li>
-                    <GrayAnchor>download cv</GrayAnchor>
+                    <GrayAnchor link={data.cv}>download cv</GrayAnchor>
                 </li>
                 <li>
-                    <Anchor>projects</Anchor>
+                    <Anchor link='#projects'>projects</Anchor>
                 </li>
                 <li>
-                    <Anchor>skills</Anchor>
+                    <Anchor link='#skills'>skills</Anchor>
                 </li>
                 <li>
-                    <Anchor>about</Anchor>
+                    <Anchor link='#about'>about</Anchor>
                 </li>
                 <li>
-                    <Anchor>contact</Anchor>
+                    <Anchor link='#contact'>contact</Anchor>
                 </li>
             </ul>
         </nav>
