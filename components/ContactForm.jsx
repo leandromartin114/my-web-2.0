@@ -82,7 +82,7 @@ export const ContactForm = () => {
             )}
 
             <button
-                className='w-full py-1 px-2 xl:py-2 text-base md:text-lg xl:text-xl text-white font-bold bg-amber-500 rounded-lg hover:bg-amber-600'
+                className='w-full py-1 px-2 xl:py-2 text-base md:text-lg xl:text-xl text-white font-bold rounded-lg bg-amber-400 hover:bg-amber-500 dark:bg-amber-500 dark:hover:bg-amber-600'
                 type='submit'
             >
                 Enviar
