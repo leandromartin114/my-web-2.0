@@ -34,7 +34,7 @@ import { Large, LargeAmber } from './Typography'
 
 export const FrontendIcons = () => {
     return (
-        <div className='w-[280px] md:w-[300px] lg:w-[600px] p-2 gap-2 lg:gap-4 grid grid-cols-3 justify-items-center items-center lg:flex flex-wrap shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
+        <div className='w-[280px] md:w-[300px] lg:w-[650px] xl:w-[700px] p-2 gap-1 grid grid-cols-3 justify-items-center items-center lg:grid-cols-4 lg:justify-items-start shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
             <Large>Frontend:</Large>
             <div className='flex gap-2 items-center'>
                 <HTMLIcon />
@@ -97,12 +97,6 @@ export const FrontendIcons = () => {
                 </div>
             </div>
             <div className='flex gap-2 items-center'>
-                <StyledComponentsIcon />
-                <div className='hidden lg:flex'>
-                    <LargeAmber>Styled Components</LargeAmber>
-                </div>
-            </div>
-            <div className='flex gap-2 items-center'>
                 <ContentfulIcon />
                 <div className='hidden lg:flex'>
                     <LargeAmber>Contentful</LargeAmber>
@@ -114,13 +108,19 @@ export const FrontendIcons = () => {
                     <LargeAmber>Figma</LargeAmber>
                 </div>
             </div>
+            <div className='flex gap-2 items-center'>
+                <StyledComponentsIcon />
+                <div className='hidden lg:flex'>
+                    <LargeAmber>Styled Components</LargeAmber>
+                </div>
+            </div>
         </div>
     )
 }
 
 export const BackendIcons = () => {
     return (
-        <div className='w-[280px] md:w-[300px] lg:w-[600px] p-2 gap-2 lg:gap-4 grid grid-cols-3 justify-items-center items-center lg:flex flex-wrap shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
+        <div className='w-[280px] md:w-[300px] lg:w-[650px] xl:w-[700px] p-2 gap-1 grid grid-cols-3 justify-items-center items-center lg:grid-cols-4 lg:justify-items-start shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
             <Large>Backend:</Large>
             <div className='flex gap-2 items-center'>
                 <TypeScriptIcon />
@@ -200,7 +200,7 @@ export const BackendIcons = () => {
 
 export const OtherIcons = () => {
     return (
-        <div className='w-[280px] md:w-[300px] lg:w-[600px] p-2 gap-2 lg:gap-4 grid grid-cols-3 justify-items-center items-center lg:flex flex-wrap shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
+        <div className='w-[280px] md:w-[300px] lg:w-[650px] xl:w-[700px] p-2 gap-1 grid grid-cols-3 justify-items-center items-center lg:grid-cols-6 lg:justify-items-start shadow-lg dark:shadow-md rounded-lg bg-gray-50 dark:bg-black dark:shadow-gray-700 dark:border-solid dark:border-2 dark:border-gray-700'>
             <Large>Others:</Large>
             <div className='flex gap-2 items-center'>
                 <GitIcon />

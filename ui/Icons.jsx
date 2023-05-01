@@ -78,7 +78,7 @@ export const LinkedinIcon = () => {
 export const FigmaIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             fill='none'
             viewBox='0 0 192 192'
         >
@@ -102,7 +102,7 @@ export const FigmaIcon = () => {
 export const AirtableIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -116,7 +116,7 @@ export const AirtableIcon = () => {
 export const CSSIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -130,7 +130,7 @@ export const CSSIcon = () => {
 export const FirebaseIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -144,7 +144,7 @@ export const FirebaseIcon = () => {
 export const GitIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -158,7 +158,7 @@ export const GitIcon = () => {
 export const HTMLIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -172,7 +172,7 @@ export const HTMLIcon = () => {
 export const JavaScriptIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -186,7 +186,7 @@ export const JavaScriptIcon = () => {
 export const NextIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -200,7 +200,7 @@ export const NextIcon = () => {
 export const NodeIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             fill='none'
             viewBox='0 0 24 24'
         >
@@ -215,7 +215,7 @@ export const NodeIcon = () => {
 export const ReactIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -229,7 +229,7 @@ export const ReactIcon = () => {
 export const TailwindIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -247,7 +247,7 @@ export const TailwindIcon = () => {
 export const TypeScriptIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -261,7 +261,7 @@ export const TypeScriptIcon = () => {
 export const AlgoliaIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -275,7 +275,7 @@ export const AlgoliaIcon = () => {
 export const PostmanIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -289,7 +289,7 @@ export const PostmanIcon = () => {
 export const WebpackIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -303,7 +303,7 @@ export const WebpackIcon = () => {
 export const PostgreSQLIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 32 32'
         >
             <g>
@@ -317,7 +317,7 @@ export const PostgreSQLIcon = () => {
 export const SWRIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 291 69'
         >
             <g>
@@ -331,7 +331,7 @@ export const SWRIcon = () => {
 export const AVAIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             preserveAspectRatio='xMidYMid'
             viewBox='0 -116 512 512'
         >
@@ -347,7 +347,7 @@ export const AVAIcon = () => {
 export const JWTIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -361,7 +361,7 @@ export const JWTIcon = () => {
 export const MapboxIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -375,7 +375,7 @@ export const MapboxIcon = () => {
 export const NPMIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 48 48'
         >
             <g>
@@ -391,7 +391,7 @@ export const NPMIcon = () => {
 export const ReduxIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 -0.5 25 25'
         >
             <g>
@@ -407,7 +407,7 @@ export const ReduxIcon = () => {
 export const StyledComponentsIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -421,7 +421,7 @@ export const StyledComponentsIcon = () => {
 export const TrelloIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -435,7 +435,7 @@ export const TrelloIcon = () => {
 export const VercelIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -449,7 +449,7 @@ export const VercelIcon = () => {
 export const YarnIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -463,7 +463,7 @@ export const YarnIcon = () => {
 export const SupabaseIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 109 113'
         >
             <g>
@@ -482,7 +482,7 @@ export const SupabaseIcon = () => {
 export const SendgridIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             preserveAspectRatio='xMidYMid'
             viewBox='0 0 256 256'
         >
@@ -501,7 +501,7 @@ export const SendgridIcon = () => {
 export const ContentfulIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             viewBox='0 0 24 24'
         >
             <g>
@@ -515,7 +515,7 @@ export const ContentfulIcon = () => {
 export const CloudinaryIcon = () => {
     return (
         <svg
-            className='w-8 md:w-10 xl:w-12 h-8 md:h-10 xl:h-12 fill-black dark:fill-white hover:scale-125 cursor-default'
+            className='w-8 md:w-10 xl:w-11 h-8 md:h-10 xl:h-11 fill-black dark:fill-white hover:scale-125 cursor-default'
             preserveAspectRatio='xMidYMid'
             viewBox='0 -44 256 256'
         >

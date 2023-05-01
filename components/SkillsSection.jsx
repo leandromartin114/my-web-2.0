@@ -10,61 +10,98 @@ const DIPLOMA_URL =
 
 export const SkillsSection = () => {
     return (
-        <section
-            className='w-full h-screen px-4 md:px-8 gap-4 flex flex-col-reverse justify-center items-center lg:flex-row lg:justify-around'
-            id='skills'
-        >
-            <motion.div
-                initial={{ x: -300 }}
-                whileInView={{
-                    x: 0,
-                    transition: { duration: 0.5, ease: 'easeInOut' },
-                }}
-                viewport={{ once: true }}
-                className='flex flex-col gap-8'
+        <>
+            <section
+                className='w-full h-screen px-4 gap-10 flex flex-col-reverse justify-center items-center lg:hidden'
+                id='skills'
             >
-                <FrontendIcons />
-                <BackendIcons />
-                <OtherIcons />
-            </motion.div>
-            <motion.div
-                initial={{ x: 300 }}
-                whileInView={{
-                    x: 0,
-                    transition: { duration: 0.5, ease: 'easeInOut' },
-                }}
-                viewport={{ once: true }}
-                className='flex flex-col gap-8 items-center'
-            >
-                <SectionTitle>skills</SectionTitle>
-                <div className='max-w-xs'>
-                    <Body>
-                        I acquired these skills after graduating from{' '}
-                        <a
-                            className='text-amber-500 dark:text-amber-300'
-                            target='_blank'
-                            rel='noreferrer'
-                            href={APX_URL}
-                        >
-                            apx.school{' '}
-                        </a>
-                        Fullstack Web Development{' '}
-                        <a
-                            className='text-amber-500 dark:text-amber-300'
-                            target='_blank'
-                            rel='noreferrer'
-                            href={CERTIFICATE_URL}
-                        >
-                            career
-                        </a>
-                    </Body>
+                <div className='flex flex-col gap-8'>
+                    <FrontendIcons />
+                    <BackendIcons />
+                    <OtherIcons />
                 </div>
-                <img
-                    className='aspect-auto hidden xl:block xl:w-[540px] 2xl:w-[700px]'
-                    src={DIPLOMA_URL}
-                    alt='Fullstack Web Development Diploma'
-                />
-            </motion.div>
-        </section>
+                <div className='flex flex-col gap-8 items-center'>
+                    <SectionTitle>skills</SectionTitle>
+                    <div className='max-w-xs'>
+                        <Body>
+                            I acquired these skills after graduating from{' '}
+                            <a
+                                className='text-amber-500 dark:text-amber-300'
+                                target='_blank'
+                                rel='noreferrer'
+                                href={APX_URL}
+                            >
+                                apx.school{' '}
+                            </a>
+                            Fullstack Web Development{' '}
+                            <a
+                                className='text-amber-500 dark:text-amber-300'
+                                target='_blank'
+                                rel='noreferrer'
+                                href={CERTIFICATE_URL}
+                            >
+                                career
+                            </a>
+                        </Body>
+                    </div>
+                </div>
+            </section>
+            <section
+                className='hidden w-full h-screen px-8 gap-4 2xl:gap-24 lg:flex lg:flex-col-reverse justify-center items-center xl:flex-row xl:justify-around 2xl:justify-center'
+                id='skills'
+            >
+                <motion.div
+                    initial={{ x: -200 }}
+                    whileInView={{
+                        x: 0,
+                        transition: { duration: 0.5, ease: 'easeInOut' },
+                    }}
+                    viewport={{ once: true }}
+                    className='flex flex-col gap-8'
+                >
+                    <FrontendIcons />
+                    <BackendIcons />
+                    <OtherIcons />
+                </motion.div>
+                <motion.div
+                    initial={{ x: 200 }}
+                    whileInView={{
+                        x: 0,
+                        transition: { duration: 0.5, ease: 'easeInOut' },
+                    }}
+                    viewport={{ once: true }}
+                    className='flex flex-col gap-8 items-center'
+                >
+                    <SectionTitle>skills</SectionTitle>
+                    <div className='max-w-md'>
+                        <Body>
+                            I acquired these skills after graduating from{' '}
+                            <a
+                                className='text-amber-500 dark:text-amber-300'
+                                target='_blank'
+                                rel='noreferrer'
+                                href={APX_URL}
+                            >
+                                apx.school{' '}
+                            </a>
+                            Fullstack Web Development{' '}
+                            <a
+                                className='text-amber-500 dark:text-amber-300'
+                                target='_blank'
+                                rel='noreferrer'
+                                href={CERTIFICATE_URL}
+                            >
+                                career
+                            </a>
+                        </Body>
+                    </div>
+                    <img
+                        className='hidden xl:block aspect-auto xl:w-[540px] 2xl:w-[700px] shadow-lg dark:shadow-md rounded-lg dark:shadow-gray-700'
+                        src={DIPLOMA_URL}
+                        alt='Fullstack Web Development Diploma'
+                    />
+                </motion.div>
+            </section>
+        </>
     )
 }

@@ -34,7 +34,7 @@ export const Body = ({ children }) => {
 
 export const Large = ({ children }) => {
     return (
-        <p className='font-semibold text-center tracking-wide text-xl xl:text-2xl leading-none text-black dark:text-white'>
+        <p className='font-normal md:font-semibold text-left tracking-wide text-xl xl:text-2xl leading-tight text-black dark:text-white'>
             {children}
         </p>
     )
@@ -42,7 +42,7 @@ export const Large = ({ children }) => {
 
 export const LargeAmber = ({ children }) => {
     return (
-        <p className='font-semibold text-center tracking-wide text-xl xl:text-2xl leading-none text-amber-500 dark:text-amber-300'>
+        <p className='font-normal text-center tracking-wide text-lg xl:text-xl leading-none text-amber-500 dark:text-amber-300'>
             {children}
         </p>
     )
