@@ -36,7 +36,7 @@ export const AboutSection = () => {
                 className='hidden h-screen w-full lg:flex flex-row-reverse px-8 gap-10 xl:gap-20 2xl:gap-32 items-center justify-center'
             >
                 <motion.div
-                    initial={{ x: -300 }}
+                    initial={{ x: 200 }}
                     whileInView={{
                         x: 0,
                         transition: { duration: 0.5, ease: 'easeInOut' },
