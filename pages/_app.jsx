@@ -4,10 +4,10 @@ import LeanContextProvider from '@/context/LeanContext'
 
 export default function App({ Component, pageProps }) {
     return (
-        <ThemeProvider attribute='class'>
-            <LeanContextProvider>
+        <LeanContextProvider>
+            <ThemeProvider attribute='class'>
                 <Component {...pageProps} />
-            </LeanContextProvider>
-        </ThemeProvider>
+            </ThemeProvider>
+        </LeanContextProvider>
     )
 }
