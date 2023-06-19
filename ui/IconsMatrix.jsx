@@ -29,6 +29,8 @@ import {
     SendgridIcon,
     ContentfulIcon,
     CloudinaryIcon,
+    MongoDBIcon,
+    JestIcon,
 } from '@/ui/Icons'
 import { Large, LargeAmber } from './Typography'
 
@@ -147,6 +149,12 @@ export const BackendIcons = () => {
                 </div>
             </div>
             <div className='flex gap-2 items-center'>
+                <MongoDBIcon />
+                <div className='hidden lg:flex'>
+                    <LargeAmber>MongoDB</LargeAmber>
+                </div>
+            </div>
+            <div className='flex gap-2 items-center'>
                 <SupabaseIcon />
                 <div className='hidden lg:flex'>
                     <LargeAmber>Supabase</LargeAmber>
@@ -186,6 +194,12 @@ export const BackendIcons = () => {
                 <JWTIcon />
                 <div className='hidden lg:flex'>
                     <LargeAmber>JWT</LargeAmber>
+                </div>
+            </div>
+            <div className='flex gap-2 items-center'>
+                <JestIcon />
+                <div className='hidden lg:flex'>
+                    <LargeAmber>Jest</LargeAmber>
                 </div>
             </div>
             <div className='flex gap-2 items-center'>
